@@ -1,0 +1,40 @@
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/
+.vs/
+*.suo
+*.user
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.log
+
+# CODESYS generated or local files
+*.cache
+*.autosave
+*.opt
+*.err
+*.mon
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and licensing
+.env
+*.license
+licenses/
+
+# Large installers and executables
+*.exe
+*.msi
+*.iso
