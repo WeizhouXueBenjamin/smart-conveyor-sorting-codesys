@@ -16,14 +16,7 @@ Desktop.ini
 *.old
 *.log
 
-# CODESYS generated or local files
-*.cache
-*.autosave
-*.opt
-*.err
-*.mon
-
-# Python
+# Python cache and virtual environments
 __pycache__/
 *.py[cod]
 .venv/
@@ -38,3 +31,16 @@ licenses/
 *.exe
 *.msi
 *.iso
+
+# CODESYS generated files
+*.cache
+*.autosave
+*.opt
+*.err
+*.mon
+*.precompilecache
+*.~u
+*.compileinfo
+*.bootinfo
+*.bootinfo_guids
+*.Device.Application.xml
